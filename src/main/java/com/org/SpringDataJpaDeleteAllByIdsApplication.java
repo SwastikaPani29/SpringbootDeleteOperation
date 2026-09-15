@@ -16,7 +16,7 @@ public class SpringDataJpaDeleteAllByIdsApplication {
 
 	public static void main(String[] args)  {
 	  ApplicationContext ctx = SpringApplication.run(SpringDataJpaDeleteAllByIdsApplication.class, args);
-	  =========== = ctx.getBean("doctorService",DoctorImpl.class);
+	   DoctorImpl bean = ctx.getBean("doctorService",DoctorImpl.class);
 	  
 Doctor doc;
 try {
